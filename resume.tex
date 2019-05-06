@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Based on:
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Jakub}{Mifek}{ \urlstyle{same}\href{http://jakub.mifek.org}{jakub.mifek.org}\\
+\href{mailto:jakubmifek@gmail.com}{jakubmifek@gmail.com} | 778 029 997
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Charles University}
+\descript{MSc in Artificial Intelligence}
+\location{Sep 2020 | Prague, CZ}
+Machine Learning and Robotics \\
+\sectionsep
+
+\subsection{Charles University}
+\descript{BSc in Computer Science}
+\location{Sep 2018 | Prague, CZ}
+Algorithms and Optimization \\
+GPA: 2.27 (1-4 | 1 is best)
+\sectionsep
+
+\subsection{Gymnázium, Praha 6, \\
+Arabská 14
+}
+\location{Grad. June 2014 | Prague, CZ}
+Programming \\
+Avg grad score: 1.0 (1-4 | 1 is best)
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Facebook:// \href{https://facebook/jakub.mifek}{\bf jakub.mifek} \\
+Github:// \href{https://github.com/jakubmifek}{\bf jakubmifek} \\
+LinkedIn://  \href{https://www.linkedin.com/in/jakubmifek}{\bf jakubmifek} \\
+YouTube://  \href{https://www.youtube.com/channel/UCuiryNhBEiADWI5heP6tusA}{\bf Jakub Mifek} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Languages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Languages}
+\mbox{\location{Czech} | Native proficiency} \\
+\mbox{\location{English} | Full professional proficiency} \\
+\mbox{\location{Japanese} | Amateur proficiency} \\
+\mbox{\location{French} | Amateur proficiency} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Some courses
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Courses}
+Optimization Methods \\
+Computer Graphics \\
+Artificial Intelligence \\
+Deep {\lserif\&} Machine Learning \\
+Software Architecture \\
+Statistics \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+Java \textbullet{} Bash \textbullet{} Python \textbullet{} Javascript \\
+C \textbullet{} C++ \textbullet{} Matlab \textbullet{} C{\lserif\#} \\ 
+\location{Over 1000 lines:}
+Prolog \textbullet{} Haskell \textbullet{} CSS \textbullet{} HTML \\
+Assembly \\
+\location{Familiar:}
+LoopBack \textbullet{} TensorFlow \textbullet{} .NET \textbullet{} MySQL \\
+MongoDB \textbullet{} Neo4j \textbullet{} CI/CD \textbullet{} Git \\
+Enterprise Architect
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{dCOS s.r.o.}
+\descript{| Programmer }
+\location{Nov 2017 - Present | Prague, CZ}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item General backend programming in NodeJS and TypeScripts
+\item Did several researches and special projects with aspect of math and physics
+\item Created several libraries and scripts that are widely used within the company; maintainer of \textbf{\href{https://github.com/JakubMifek/SelectTransform}{ST.JS}} fork
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Classic Card Games}
+\descript{| Approach for creation of CCG and AI}
+\location{ Nov 2016 – June 2018 | Prague, CZ}
+Under the lead of \textbf{\href{https://gamedev.cuni.cz/contacts/}{Mgr. Jakub Gemrot, Ph.D.}} I created a library which abstracts creation of card games and enables general AI development. In addition I created several sample games, GUI, Server application and several AIs for each game including self-learning agents based on Q-Learning. \\
+Read more in my \textbf{\href{https://dspace.cuni.cz/bitstream/handle/20.500.11956/101143/130239537.pdf?sequence=1&isAllowed=y}{thesis}}.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+\mbox{\location{Google Hash Code 2019} | Online Qualification Round \textbullet{} 1132nd place}
+\mbox{\location{Google Code Jam 2018} | Online Qualification Round \textbullet{} 493rd place}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     VOLUNTEERING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Volunteering}
+\mbox{\location{\href{http://www.dcmotol.cz/cs}{Dobrovolnické centrum FN v Motole}} | 2018} \\
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
